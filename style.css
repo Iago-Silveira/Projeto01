@@ -35,6 +35,7 @@ body{
     background-position: top center;
 */
 background: var(--bg-url) no-repeat top center/cover;
+height: 100vh;
 
 }
 /* o * aplica pra todos os elementoa*/
@@ -160,4 +161,15 @@ footer {
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
+}
+
+/*Media queries*/
+@media {
+    :hoot {
+        --bg-url: url("./assets/bg-desktop.jpg");
+    }
+
+    .light {
+        --bg-url: url("./assets/bg-desktop-light.jpg")
+    }
 }
